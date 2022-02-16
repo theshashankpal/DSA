@@ -1,4 +1,4 @@
-class Solution
+class Kruskal
 {
     //Function to find sum of weights of edges of the Minimum Spanning Tree.
     static int spanningTree(int V, ArrayList<ArrayList<ArrayList<Integer>>> adj) 
