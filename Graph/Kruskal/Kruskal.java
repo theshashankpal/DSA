@@ -54,7 +54,7 @@ class Edge implements Comparable<Edge>{
             int tempI = Integer.compare(this.i,e1.i);
             int tempJ = Integer.compare(this.j,e1.j);
             if(tempI==0 && tempJ ==0) 
-                return 0;
+                compare = 0;
             else
                 {
                     if(tempI != 0)
